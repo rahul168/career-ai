@@ -1,6 +1,6 @@
 # Career AI
 
-A professional AI-powered chat assistant that represents a candidate's professional profile. Built with Gradio and OpenAI's API, this application provides an interactive interface for answering questions about career background, skills, experience, and projects based on LinkedIn profile data.
+A professional AI-powered chat assistant that represents a candidate's professional profile. Built with Gradio and OpenAI's latest release of [openai-python](https://github.com/openai/openai-python) v2.15 API, this application provides an interactive interface for answering questions about career background, skills, experience, and projects based on LinkedIn profile data.
 
 ## Features
 
@@ -67,7 +67,7 @@ A professional AI-powered chat assistant that represents a candidate's professio
 Run the application:
 
 ```bash
-python app.py
+uv run app.py
 ```
 
 The Gradio interface will launch and display a local URL (typically `http://127.0.0.1:7860`). Open this URL in your web browser to start chatting with the AI assistant.
