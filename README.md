@@ -1,3 +1,9 @@
+---
+title: career_ai
+app_file: app.py
+sdk: gradio
+sdk_version: 6.3.0
+---
 # Career AI
 
 A quick example of AI-powered chat assistant that represents a candidate's professional profile. Built with Gradio and OpenAI's latest release of [openai-python](https://github.com/openai/openai-python) v2.15 using [Responses API](https://platform.openai.com/docs/api-reference/responses), this application provides an interactive interface for answering questions about career background, skills, experience, and projects based on LinkedIn profile data.
